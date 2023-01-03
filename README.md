@@ -20,33 +20,43 @@ Spring merupakan framework Java yang mempermudah para programmer dalam membuat s
 * Spring MVC dan Restful Web Service
 * Support koneksi database, dsb.
 
-### Pengenalan Spring Framework
+## Pengenalan Spring Framework
 * Spring Framework adalah framework paling populer di Java
 * Saking Populernya,Spring Framework sampai mengalahkan popularitas Java Enterprise sendiri
 * Spring Framework Semakin Populer karena sangat ringan dan mudah digunakan dibandingkan Java Enterprise
 * [https://spring.io/]
 
-### Pengenalan Spring Boot
+## Pengenalan Spring Boot
 Spring Boot merupakan framework untuk mempermudah pembuatan aplikasi Spring Framework
 Dahulu untuk menggunakan Spring Framework, untuk pemula tidaklah mudah, karena terlalu banyak yang harus dilakukan sebelum bisa membuat aplikasi
 Spring Boot menjadikan kompleksitas tersebut ditangani secara otomatis oleh Spring Boot, sehingga kita bisa membuat aplikasi * Spring Framework secara cepat tanpa harus melakukan pengaturan apapun
 Spring Boot sekarang sudah menjadi salah satu framework wajib ketika kita ingin membuat aplikasi Spring Framework
 
-### Kenapa Menggunakan Spring?
+## Kenapa Menggunakan Spring?
 * Tidak bisa dipungkiri, saat ini Spring adalah satu-satunya framework paling populer di Java
 * Belum ada yang bisa menandingi popularitasnya di Java
 * Saking populernya, bahkan banyak perusahaan pindah ke JVM karena ingin menggunakan Spring-nya, bukan Java
 * Dengan banyaknya bahasa yang bisa berjalan di atas JVM, seperti Kotlin, Groovy dan Scala, maka secara programmer punya banyak pilihan bahasa pemrograman ketika menggunakan Spring Spring juga sudah banyak sekali diadopsi di banyak perusahaan, baik itu skala besar atau kecil
 
 ## Inversion Of Control
-Inversion of Control jika diterjemahkan secara literer berarti “pembalikan kendali”. Maksudnya, secara istilah,  adalah membalik (atau memindahkan) kendali (atau tanggung jawab) pengelolaan object yang semula dilakukan oleh program dipindahkan ke Framework atau Container.
+Inversion of Control jika diterjemahkan secara literer berarti “pembalikan kendali”. Maksudnya, secara istilah,  adalah membalik (atau memindahkan) kendali (atau tanggung jawab) pengelolaan object yang semula dilakukan oleh program dipindahkan ke Framework atau Container. Ada suatu ciri khusus dari IOC yakni, IOC dapat diilustrasikan sebagai service yang akan mendatangi semua object-object yang ada dan menanyakan dan memberikan object lain yang dibutuhkan. IOC dapat dianalogikan dengan pasar yang mendatangi para client yang membutuhkan brang-barang yang ada di pasar tersebut. Jada bukannya yang membutuhkan yang datang tetapi pasar yang datang.
 
-### Keuntungan IOC
+## Keuntungan IOC
 Berikut adalah keuntungan yang akan didapatkan oleh developer ketika menggunakan teknologi IOC.
 * Decoupling antar proses eksekusi task dan cara implementasinya.
 * Modularity antar komponen semakin bagus
 * Dapat memilih dan merubah implementasi suatu proses dengan mudah
 * Memudahkan proses testing pada program
 * Tidak perlu membuat code yang mengatur cara instantiasi, mengelola object dalam memory, dan membersihkannya setelah tidak digunakan.
- 
+
+## Dalam real implementasinya IOC melakukan proses-proses berikut.
+* Instantiating Bean
+* Menghubungkan semua bean
+* Konfigurasi Bean
+* Mengatur life cycle semua bean
+
+## IOC akan mengandalkan dua package utama yaitu,
+* org.springframework.beans
+* org.springframework.context
+
 

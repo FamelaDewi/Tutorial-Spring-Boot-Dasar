@@ -38,7 +38,7 @@ Spring Boot sekarang sudah menjadi salah satu framework wajib ketika kita ingin 
 * Saking populernya, bahkan banyak perusahaan pindah ke JVM karena ingin menggunakan Spring-nya, bukan Java
 * Dengan banyaknya bahasa yang bisa berjalan di atas JVM, seperti Kotlin, Groovy dan Scala, maka secara programmer punya banyak pilihan bahasa pemrograman ketika menggunakan Spring Spring juga sudah banyak sekali diadopsi di banyak perusahaan, baik itu skala besar atau kecil
 
-## Invertion Of Control
+## Inversion Of Control
 Inversion of Control jika diterjemahkan secara literer berarti “pembalikan kendali”. Maksudnya, secara istilah,  adalah membalik (atau memindahkan) kendali (atau tanggung jawab) pengelolaan object yang semula dilakukan oleh program dipindahkan ke Framework atau Container.
 
 ### Keuntungan IOC
